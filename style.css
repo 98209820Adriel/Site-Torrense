@@ -1,0 +1,151 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: #b7eeca;
+
+}
+#log{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+    
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#038C33;
+    list-style:none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.849);
+   
+}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    font-size: 15px;
+    padding: 7px 50px;
+    display: inline-block;
+    font-family: 'Titan One', cursive;
+    /* visual do link */
+    background-color:#FAB711;
+    color: rgb(10, 73, 26);
+    text-decoration: none;
+    border-bottom:3px solid #252525;
+    margin-left: 100px;
+}
+#menu ul li a:hover {
+    background-color:#0dc7e0;
+    color: #14c40e;
+    border-bottom:3px solid #e3e704;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding:  40px 4%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+
+}
+
+
+
+
+section:nth-of-type(1){
+    background-image: url(img/mercado2.jpg.png);
+    width: 100%;
+    height: 800px;
+    
+}
+
+section:nth-of-type(3){
+    background-image: url(img/pao1.jpg.png);
+    width: 100%;
+    height: 600px;
+}
+
+section:nth-of-type(5){
+    background-image: url(img/carne1.jpg.png);
+    width: 100%;
+    height: 600px;
+}
+
+section:nth-of-type(7){
+    background-image: url(img/verduras.jpg.png) ;
+    width: 100%;
+    height: 600px;
+}
+
+section:nth-of-type(9){
+    background-image: url(img/pratelehira1.jpg.png);
+    width: 100%;
+    height: 600px;
+}
+
+.sec{
+    background-color: forestgreen;
+    padding: 50px;
+    
+}
+.tit{
+   padding: 20px;
+   font-family: 'Lobster', cursive;
+   color: rgb(16, 32, 22);
+  
+}
+.par{
+    text-align: justify;
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: white;
+    
+}
+.dd{
+    padding: 40px;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(223, 173, 10);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #36d36d;
+    border-radius: 10px;
+}
+
+#mapa{
+    margin-right: 800px;
+    
+    
+}
+.final{
+    padding: 20px;
+    margin-left: 800px;
+    text-align:  justify;
+    width: 250px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(122, 165, 35, 0.767);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.589);
+}
+.fim{
+    background-color: forestgreen;
+    height: 500px;
+}
+#f{
+    font-size: 20px;
+    color: ghostwhite;
+}
